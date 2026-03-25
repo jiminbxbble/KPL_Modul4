@@ -21,8 +21,8 @@ public class KodePaket
 		if (tabelPaket.ContainsKey(namaPaket)) {
 			return tabelPaket[namaPaket];
 		}
-		else { 
-			return "Tidak termasuk dalam daftar paket" 
+		else {
+			return "Tidak termasuk dalam daftar paket";
 		}
 	}
 }
